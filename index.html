@@ -1,12 +1,112 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
-  <div class="container text-3xl font-bold text-green-600 bg-yellow-500">
-    <h1>Hey world</h1>
-  </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./css/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body class="bg-black text-white my-4">
+    <div class="flex container mx-auto">
+      <div class="first w-full">
+        <div class="logo mb-6">
+          <svg
+            viewBox="0 0 24 24"
+            width="30"
+            height="30"
+            class="w-8 m-auto"
+            fill="currentColor"
+          >
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"
+            />
+          </svg>
+        </div>
+        <div class="sidebar flex justify-end">
+          <ul class="flex flex-col text-xl space-y-3 px-15 font-bold">
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full">
+              <span class="material-symbols-outlined">home</span>Home
+            </li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">search</search></span>Explore</li>
+            <li class="flex items-cente gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">notifications</span>Notification</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">all_inbox</span>Messages</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">check_box</span> Grok</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">tv_options_edit_channels</span>Lists</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">bookmarks</span>Bookmarks</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">group</span>Communities</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">crown</span>Premium</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">account_circle</span>Profile</li>
+            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">more</span>More</li>
+          </ul>
+        </div>
+      </div>
+      <div class="second w-full border-x border-white">
+        <div class="top flex p-3 relative">
+          <div class="absolute bg-blue-500 w-15 h-1 bottom-0 left-18 z-10"></div>
+          <div class="left w-1/2 flex justify-center font-bold text-lg">For you</div>
+          <div class="right w-1/2 flex justify-center font-bold text-lg">Following</div>
+          <div class="settings mx-3"><span class="material-symbols-outlined">settings</span></div>
+        </div>
+        <div class="line h-px w-full bg-white "></div>
+      </div>
+      <div class="third w-full">
+        <div class="search">
+          <input type="text" class="w-70 bg-[#16181c] border-2 border-white text-white rounded-full px-5 py-2 mx-5" placeholder="search">
+        </div>
+        <div class="whats mx-5 w-70 my-3 py-5 bg-[#16181c] rounded-2xl space-y-3">
+          <h1 class="px-3 font-bold text-xl">What's Happening</h1>
+          <div class="item hover:bg-gray-800 cursor-pointer px-3">
+            <div class=" text-white text-sm">trending in India</div>
+            <div class="font-bold">#Micheal jackson</div>
+            <div class=" text-white text-sm">110k posts</div>
+          </div>
+          <div class="item hover:bg-gray-800 cursor-pointer px-3">
+            <div class=" text-white text-sm">trending in India</div>
+            <div class="font-bold">#Scooby Doo</div>
+            <div class=" text-white text-sm">110k posts</div>
+          </div>
+          <div class="item hover:bg-gray-800 cursor-pointer px-3">
+            <div class=" text-white text-sm">trending in India</div>
+            <div class="font-bold">#Tom and Jerry</div>
+            <div class=" text-white text-sm">110k posts</div>
+          </div>
+          <div class="item hover:bg-gray-800 cursor-pointer px-3">
+            <div class=" text-white text-sm">trending in India</div>
+            <div class="font-bold">#Ben 10</div>
+            <div class=" text-white text-sm">110k posts</div>
+          </div>
+        </div>
 
-</body>
-</html>
+        <div class="who mx-5 w-70 my-3 py-5 bg-[#16181c] rounded-2xl space-y-3">
+          <h1 class="px-3 font-bold text-xl">Who to follow</h1>
+          <div class="follow flex justify-between hover:bg-gray-800 py-3">
+            <div class="cursor-pointer px-3">
+              <div class="font-bold">Ramesh Kumar</div>
+              <div class="text-white text-sm">@rameshkumar12</div>
+            </div> 
+            <div class="button">
+              <button class="bg-white font-bold rounded-full px-4 py-1 mx-2 text-black">Follow</button>
+            </div>
+          </div>
+
+          <div class="follow flex justify-between hover:bg-gray-800 py-3">
+            <div class="hover:bg-gray-800 cursor-pointer px-3 py-1">
+              <div class="font-bold">shreyansh jain</div>
+              <div class="text-white text-sm">@shreyansh14</div>
+            </div>
+            <div class="button">
+              <button class="bg-white font-bold rounded-full px-4 py-1 mx-2 text-black">Follow</button>
+            </div> 
+          </div>
+          
+          
+          <div class="text-blue-600 my-5 px-3">Show more</div> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
