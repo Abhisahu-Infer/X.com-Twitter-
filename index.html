@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>X.com</title>
     <link href="./css/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
-  <body class="bg-black text-white my-4">
-    <div class="flex container mx-auto">
-      <div class="first w-full">
+  <body class="bg-black text-white my-4 h-screen overflow-hidden mx-[5%]">
+    <div class="cont flex max-w-7xl mx-auto h-screen">
+      <div class="first hidden sm:block xl:block sm:w-[60px] xl:w-[275px] shrink-0 h-screen sticky top-0 ">
         <div class="logo mb-6">
           <svg
             viewBox="0 0 24 24"
             width="30"
             height="30"
-            class="w-8 m-auto"
+            class="w-8"
             fill="currentColor"
           >
             <path
@@ -26,33 +27,59 @@
             />
           </svg>
         </div>
-        <div class="sidebar flex justify-end">
-          <ul class="flex flex-col text-xl space-y-3 px-15 font-bold">
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full">
-              <span class="material-symbols-outlined">home</span>Home
+        <div class="sidebar flex xl:w-[220px] xl:justify-end">
+          <ul class="flex flex-col text-2xl space-y-4 ">
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full font-bold">
+              <span class="material-symbols-outlined !text-[32px]">home</span><span class="hidden xl:block">Home</span>
             </li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">search</search></span>Explore</li>
-            <li class="flex items-cente gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">notifications</span>Notification</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">all_inbox</span>Messages</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">check_box</span> Grok</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">tv_options_edit_channels</span>Lists</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">bookmarks</span>Bookmarks</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">group</span>Communities</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">crown</span>Premium</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">account_circle</span>Profile</li>
-            <li class="flex items-center gap-3 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined">more</span>More</li>
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">search</search></span><span class="hidden xl:block">Explore</span></li>
+
+            <li class="flex items-cente gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]"">notifications</span><span class="hidden xl:block">Notification</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">all_inbox</span><span class="hidden xl:block">Messages</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">check_box</span><span class="hidden xl:block">Grok</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">tv_options_edit_channels</span><span class="hidden xl:block">Lists</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">Bookmark</span><span class="hidden xl:block">Bookmark</span></li>
+  
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">group</span><span class="hidden xl:block">Communities</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">crown</span><span class="hidden xl:block">Premium</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">account_circle</span><span class="hidden xl:block">Profile</span></li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">more</span><span class="hidden xl:block">More</span></li>
           </ul>
         </div>
         <div class="flex justify-center my-5 relative">
-          <button class="bg-blue-500 rounded-full text-white font-bold px-20 py-2 absolute right-10">Post</button>
+          <button class="bg-white rounded-full text-black font-bold px-30 py-4 absolute right-10 hidden xl:block">Post</button>
+          <button class="xl:hidden w-10 h-10 absolute right-7 bg-white rounded-full block"><span class="material-symbols-outlined invert">edit_square</span></button>
         </div>
       </div>
-      <div class="second w-full border-x border-white">
+      <div class="first block sm:hidden">
+        <div class="lowericon bg-black w-full h-20 sticky bottom-0 z-20">
+          <ul>
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full font-bold">
+              <span class="material-symbols-outlined !text-[32px]">home</span><span class="hidden xl:block">Home</span>
+            </li>
+
+            <li class="flex items-center gap-5 hover:bg-gray-900 w-fit px-3 py-1 hover:cursor-pointer hover:rounded-full"><span class="material-symbols-outlined !text-[32px]">search</search></span><span class="hidden xl:block">Explore</span></li>
+            
+          </ul>
+        </div>
+      </div>
+
+
+
+
+      <div class="second lg:w-[700px] lg:min-w-[700px] w-[90%] shrink-0 border-x border-gray-600 h-screen overflow-y-auto hide-scrollbar">
         <div class="top flex p-3 relative">
-          <div class="absolute bg-blue-500 w-15 h-1 bottom-0 left-18 z-10"></div>
+          <div class="absolute bg-blue-500 w-15 h-1 bottom-0 left-35 z-10"></div>
           <div class="left w-1/2 flex justify-center font-bold text-lg">For you</div>
-          <div class="right w-1/2 flex justify-center font-bold text-lg">Following</div>
-          <div class="settings mx-3"><span class="material-symbols-outlined">settings</span></div>
+          <div class="right w-1/2 flex justify-center text-gray-600 font-bold text-lg">Following</div>
+          <div class="settings mx-3 text-gray-600"><span class="material-symbols-outlined">settings</span></div>
         </div>
         <div class="line h-px w-full bg-gray-700 "></div>
         <div class="happening flex gap-4 my-3">
@@ -66,26 +93,178 @@
               <span class="font-bold text-sm my-3">Everyone can reply</span>
             </div>
             <div class="w-full bg-gray-600 h-px my-2"></div>
-            <div class="blueicons flex gap-2 justify-between">
-              <div class="icon">
-                <span class="material-symbols-outlined text-blue-300 cursor-pointer">imagesmode</span>
-                <span class="material-symbols-outlined text-blue-300 cursor-pointer">gif_box</span>
-                <span class="material-symbols-outlined text-blue-300 cursor-pointer">event_list</span>
-                <span class="material-symbols-outlined text-blue-300 cursor-pointer">sentiment_satisfied</span>
-                <span class="material-symbols-outlined text-blue-300 cursor-pointer">calendar_clock</span>
-                <span class="material-symbols-outlined text-blue-300 cursor-pointer">location_on</span>
+            <div class="blueicons flex justify-between ">
+              <div class="icon flex gap-10">
+                <span class="material-symbols-outlined text-gray-600 cursor-pointer">imagesmode</span>
+                <span class="material-symbols-outlined text-gray-600 cursor-pointer">gif_box</span>
+                <span class="material-symbols-outlined text-gray-600 cursor-pointer">event_list</span>
+                <span class="material-symbols-outlined text-gray-600 cursor-pointer">sentiment_satisfied</span>
+                <span class="material-symbols-outlined text-gray-600 cursor-pointer">calendar_clock</span>
+                <span class="material-symbols-outlined text-gray-600 cursor-pointer">location_on</span>
               </div>
               <div class="post">
-                <button class="bg-blue-500 text-white font-bold px-5 py1 rounded-full mx-3">Post</button>
+                <button class="bg-gray-600 text-black font-bold px-5 py-1 rounded-full mx-3">Post</button>
               </div>
             </div>
           </div>
         </div>
         <div class="h-px bg-gray-600 w-full"></div>
-        <div class="flex justify-center my-3 text-blue-200 text-sm">Show 300 Posts</div>
+        <div class="flex justify-center my-3 text-blue-500 text-sm">Show 300 Posts</div>
         <div class="h-px bg-gray-600 w-full"></div>
+        <div class="multi-post">
+          <div class="postU flex justify-between items-center">
+            <div class="1post flex items-center">
+                <img src="images/Earth_pp.jpg" class="w-12 h-12 rounded-full object-cover m-3" alt="">
+                <span class="font-bold hover:underline ">Earth</span>
+                <img src="images/blue_t.svg" class="w-5 h-5">
+                <span class="text-sm text-gray-400">@earthcurated . 2h</span>
+            </div>
+            <div class="op mx-2"><span class="material-symbols-outlined">more_horiz<span></div>
+          </div>
+          <div class="caption">
+              <span class="mx-5">Nature is the ultimate therapy</span>
+          </div>
+          <div class="media px-8 my-5">
+            <img src="images/nature.jpg" class="rounded-2xl ">
+          </div>
+          <div class="icons px-8 flex justify-between my-3">
+            <div class="starter flex gap-10 text-gray-600">
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">comment</span> 45k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">repeat</span>10k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">favorite</span>1.2M</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">bar_chart</span>1.6M</div>
+            </div>
+            <div class="lasttwo text-gray-600">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="h-px w-full bg-gray-600"></div>
+        <div class="multi-post">
+          <div class="postU flex justify-between items-center">
+            <div class="1post flex items-center">
+                <img src="images/Earth_pp.jpg" class="w-12 h-12 rounded-full object-cover m-3" alt="">
+                <span class="font-bold hover:underline ">Earth</span>
+                <img src="images/blue_t.svg" class="w-5 h-5">
+                <span class="text-sm text-gray-400">@earthcurated . 2h</span>
+            </div>
+            <div class="op mx-2"><span class="material-symbols-outlined">more_horiz<span></div>
+          </div>
+          <div class="caption">
+              <span class="mx-5">Nature is the ultimate therapy</span>
+          </div>
+          <div class="media px-8 my-5">
+            <img src="images/nature.jpg" class="rounded-2xl ">
+          </div>
+          <div class="icons px-8 flex justify-between my-3">
+            <div class="starter flex gap-10 text-gray-600">
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">comment</span> 45k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">repeat</span>10k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">favorite</span>1.2M</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">bar_chart</span>1.6M</div>
+            </div>
+            <div class="lasttwo text-gray-600">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="multi-post">
+          <div class="postU flex justify-between items-center">
+            <div class="1post flex items-center">
+                <img src="images/Earth_pp.jpg" class="w-12 h-12 rounded-full object-cover m-3" alt="">
+                <span class="font-bold hover:underline ">Earth</span>
+                <img src="images/blue_t.svg" class="w-5 h-5">
+                <span class="text-sm text-gray-400">@earthcurated . 2h</span>
+            </div>
+            <div class="op mx-2"><span class="material-symbols-outlined">more_horiz<span></div>
+          </div>
+          <div class="caption">
+              <span class="mx-5">Nature is the ultimate therapy</span>
+          </div>
+          <div class="media px-8 my-5">
+            <img src="images/nature.jpg" class="rounded-2xl ">
+          </div>
+          <div class="icons px-8 flex justify-between my-3">
+            <div class="starter flex gap-10 text-gray-600">
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">comment</span> 45k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">repeat</span>10k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">favorite</span>1.2M</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">bar_chart</span>1.6M</div>
+            </div>
+            <div class="lasttwo text-gray-600">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="multi-post">
+          <div class="postU flex justify-between items-center">
+            <div class="1post flex items-center">
+                <img src="images/Earth_pp.jpg" class="w-12 h-12 rounded-full object-cover m-3" alt="">
+                <span class="font-bold hover:underline ">Earth</span>
+                <img src="images/blue_t.svg" class="w-5 h-5">
+                <span class="text-sm text-gray-400">@earthcurated . 2h</span>
+            </div>
+            <div class="op mx-2"><span class="material-symbols-outlined">more_horiz<span></div>
+          </div>
+          <div class="caption">
+              <span class="mx-5">Nature is the ultimate therapy</span>
+          </div>
+          <div class="media px-8 my-5">
+            <img src="images/nature.jpg" class="rounded-2xl ">
+          </div>
+          <div class="icons px-8 flex justify-between my-3">
+            <div class="starter flex gap-10 text-gray-600">
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">comment</span> 45k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">repeat</span>10k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">favorite</span>1.2M</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">bar_chart</span>1.6M</div>
+            </div>
+            <div class="lasttwo text-gray-600">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="multi-post">
+          <div class="postU flex justify-between items-center">
+            <div class="1post flex items-center">
+                <img src="images/Earth_pp.jpg" class="w-12 h-12 rounded-full object-cover m-3" alt="">
+                <span class="font-bold hover:underline ">Earth</span>
+                <img src="images/blue_t.svg" class="w-5 h-5">
+                <span class="text-sm text-gray-400">@earthcurated . 2h</span>
+            </div>
+            <div class="op mx-2"><span class="material-symbols-outlined">more_horiz<span></div>
+          </div>
+          <div class="caption">
+              <span class="mx-5">Nature is the ultimate therapy</span>
+          </div>
+          <div class="media px-8 my-5">
+            <img src="images/nature.jpg" class="rounded-2xl ">
+          </div>
+          <div class="icons px-8 flex justify-between my-3">
+            <div class="starter flex gap-10 text-gray-600">
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">comment</span> 45k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">repeat</span>10k</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">favorite</span>1.2M</div>
+              <div class="flex items-center gap-1"><span class="material-symbols-outlined">bar_chart</span>1.6M</div>
+            </div>
+            <div class="lasttwo text-gray-600">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="third w-full">
+
+
+
+
+
+
+      <div class="third hidden lg:block lg:w-[300px] shrink-0 h-screen sticky top-0">
         <div class="search">
           <input type="text" class="w-70 bg-[#16181c] border-2 border-white text-white rounded-full px-5 py-2 mx-5" placeholder="search">
         </div>
